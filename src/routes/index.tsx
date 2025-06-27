@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
-import logo from '../logo.svg'
 import { useEffect, useState } from 'react'
+import logo from '../logo.svg'
 import { ping } from '@/services/ping'
 
 export const Route = createFileRoute('/')({
@@ -42,7 +42,7 @@ function App() {
         >
           Learn TanStack
         </a>
-      <div>Ping says: {message ?? 'Loading...'}</div>
+        <div>Ping says: {message ?? 'Loading...'}</div>
       </header>
     </div>
   )
